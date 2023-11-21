@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    font-weight: bold;
+
+}
+
+/*Começo do código referente ao slider da página de login*/
+
+.slider-p {
+    width: 50%;
+    height: 100vh;
+
+    background-color: #194744;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-p p{
+width: 550px;
+text-align: center;
+
+color: #FFBD59;
+}
+
+
+
+.slide img{
+    margin: 0 auto;
+}
+.radios {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+/*Fim do Código referente ao slider da página de login*/
+
+
+
+
+/*Começo da estilização do formulario de login*/
+.formulario-p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.cadrastrar {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cadrastrar button {
+    background-color: #004AAD;
+    color: aliceblue;
+
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.continuar {
+    cursor: pointer;
+    background-color: #004AAD;
+    margin: 0 auto;
+    margin: 20px auto;
+    display: flex;
+    width: 250px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius: 25px;
+
+}
+
+.continuar img {
+    width: 60px;
+}
+
+.continuar button {
+    background-color: #004AAD;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.entrar button{
+    background-color:rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+
+    font-size: 30px;
+}
+.esqueci{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.esqueci a{
+    text-decoration: none;
+    color: #004AAD;
+
+}
+
+/*Fim do formulario de login*/
+
+
+/*Começo dos media queries para a responsividade*/
+
+@media  (max-width:1023px){
+    body{
+        display: block;
+    }
+
+    .slider-p{
+        height: 50vh;
+        width: 100%;
+
+       
+    }
+
+    .slider-p img{
+        width: 400px;
+        margin: 0 auto;
+
+    }
+
+    .slider-p p{
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .formulario-p {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+}
+/*Fim dos medias queries para a responsividade*/
