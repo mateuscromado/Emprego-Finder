@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+    display: flex;
+
+}
+
+.center{
+    display: flex;
+}
+
+.parte-1{
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #194744;
+}
+
+.parte-1 img{
+    background-color: aliceblue;
+    border-radius: 260px;
+}
+
+.parte-1 h1{
+    text-align: center;
+}
+
+.parte-2{
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+
+    margin: 0 auto;
+}
+
+.formulario{
+    display: block;
+    width: 450px;
+
+}
+
+.formulario input{
+    border: none;
+    border-bottom: black 2px solid;
+    width: 20vw;
+    height: 30px;
+}
+
+/*Código para o botão continuar*/
+.formulario button{
+    background-color: #004AAD;
+    color: #ffffff;
+    border: none;
+
+    font-size: 30px;
+
+    padding: 10px;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+/*Fim do código para o botão continuar*/
+
+@media (max-width:1023px) {
+
+    .center{
+        display: block;
+    }
+    
+    .parte-1{
+        width: 100vw;
+        height: 30vh;
+    }
+    .parte-1 img{
+        width: 190px;
+
+    }
+
+    .parte-2{
+
+        width: 100vw;
+        height: 50vh;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+    .parte-1 h1{
+        font-size: 20px;
+    }
+
+    .perfil{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .formulario input{
+        width: 90%;
+    }
+
+    .formulario h1{
+        font-size: 20px;
+    }
+}
