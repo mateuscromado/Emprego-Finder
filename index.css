@@ -33,6 +33,7 @@ color: #FFBD59;
 
 .slide img{
     margin: 0 auto;
+
 }
 .radios {
     margin: 0 auto;
@@ -147,7 +148,7 @@ color: #FFBD59;
     }
 
     .slider-p img{
-        width: 400px;
+        width: 180px;
         margin: 0 auto;
 
     }
@@ -160,6 +161,11 @@ color: #FFBD59;
     .formulario-p {
         margin: 0 auto;
         padding-top: 40px;
+    }
+
+    .imagem{
+        display: flex;
+        justify-content: center;
     }
 
 }
