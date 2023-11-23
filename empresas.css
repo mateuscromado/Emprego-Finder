@@ -1,0 +1,38 @@
+.empresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.empresa-p{
+    width: 20vw;
+    display: flex;
+    justify-content:flex-start;
+    margin: 0 auto;
+
+
+}
+.empresa img{
+    width: 100px;
+    border-radius: 60px;
+
+    border: solid black 2px;
+
+    margin: 20px 10px;
+}
+
+@media (max-width:1023px) {
+    .empresa img{
+        width: 50px;
+        margin-right: 10px;
+    }
+    .empresa{
+        font-size: 10px;
+    }
+
+    .empresa-p{
+        justify-content: flex-start;
+        width: 100vw;
+    }
+
+}

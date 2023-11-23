@@ -65,7 +65,7 @@ function vagasP(){
 }
 
 function enpresasP(){
-    window.location.href = "homepage.html"
+    window.location.href = "empresas.html"
 
 }
 
