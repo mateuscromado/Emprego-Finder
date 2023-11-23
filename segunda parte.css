@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+
+}
+
+/*Começo da parte de Bom Dia*/
+.bemvindo{
+    background-color: #194744;
+    color: aliceblue;
+
+    height: 8vh;
+
+    width: 100%;
+    text-align: center;
+    position: fixed;
+
+    border-bottom: black 2px solid;
+}
+/*Fim da parte de Bom Dia*/
+
+/*Começo das recomendações*/
+    .recomendacoes{
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+    }
+
+    .center{
+        width: 70vw;
+        margin-top: 70px;
+        box-shadow: 2px 3px 20px black;
+
+        border-radius: 20px;
+    }
+
+    .center h4{
+        text-align: center;
+    }
+
+
+    .recomendas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #3B93AA;
+        margin:20px auto;
+
+width: 40%;
+        border-radius: 20px;
+        padding-left: 20px;
+
+    }
+
+    .recomendas img{
+        width: 40px;
+        height:40px ;
+
+        padding-right: 20px;
+
+    }
+
+
+    details{
+        background-color: #4e4e4e;
+        width: 40%;
+        margin: 0 auto;
+
+        padding: 10px;
+        border-radius: 30px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+   summary{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: #ffffff;
+    user-select: none;
+    cursor: pointer ;
+   }
+
+   summary img{
+    margin-left: 10px;
+   }
+
+   details button{
+    width: 100%;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px;
+   }
+    details img{
+width: 60px;    }
+
+
+hr{
+background-color: black;   
+ height: 1.5px;
+}
+/*Fim das recomendações*/
+
+/*Começo do rodapé*/
+.rodape{
+
+    width: 100%;
+    height: 20vh;
+
+    border-bottom: solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens{
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.icones{
+    margin: auto 20px;
+
+    cursor: pointer;
+
+    width: 120px;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.icones img{
+    width: 60px;
+margin: 0 auto !important;
+
+margin-bottom: -20px;
+
+
+}
+
+.icones h4{
+    margin: 0 auto;
+}
+
+.celular{
+    display: none;
+}
+/*Fim do rodapé*/
+
+@media (max-width:1023px) {
+
+    .rodape{
+        display: none;
+    }
+
+
+    .celular{
+        display: flex;
+        margin-top: 20px;
+
+    }
+    .rodape{
+        width: 100vw;
+
+        border: none;
+    }
+
+
+    .icones img{
+        width: 30px;
+    }
+
+    .icones{
+        font-size: 10px;
+        width: 5vw;
+
+        margin: auto 25px;
+    }
+
+
+    .center{
+        width: 100vw;
+        border-radius: 0;
+    }
+
+
+    details{
+        width: 90vw;
+    }
+
+    .recomendas{
+        width: 80vw;
+    }
+
+    .center{
+        margin-top: -20px;
+
+    }
+
+
+}
